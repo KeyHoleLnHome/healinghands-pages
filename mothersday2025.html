@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mother's Day Invite</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap');
+
+    html { color-scheme: only light; }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #f4ede4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .card {
+      background: #fffaf6;
+      width: 680px;
+      border: 1px solid #d9c9b8;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+      overflow: hidden;
+    }
+
+    /* Header band */
+    .header-band {
+      background: #3d6b5e;
+      padding: 10px 0;
+      text-align: center;
+      letter-spacing: 3px;
+      font-size: 11px;
+      color: #c9ddd7;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    /* Logo row */
+    .logo-row {
+      background: #fffaf6;
+      display: flex;
+      justify-content: center;
+      padding: 24px 0 16px;
+      border-bottom: 1px solid #e8ddd0;
+    }
+
+    .logo-row img {
+      height: 72px;
+      object-fit: contain;
+    }
+
+    /* Hero image strip */
+    .image-strip {
+      display: flex;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .image-strip img {
+      width: 50%;
+      object-fit: cover;
+      object-position: center;
+      filter: brightness(0.88) saturate(0.9);
+    }
+
+    .image-strip img:first-child {
+      border-right: 2px solid #fffaf6;
+    }
+
+    /* Body */
+    .body {
+      padding: 32px 44px 28px;
+    }
+
+    .occasion {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #3d6b5e;
+      margin-bottom: 8px;
+    }
+
+    .package-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      font-weight: 600;
+      color: #2c2c2c;
+      margin-bottom: 4px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 14px;
+      color: #8a7060;
+      margin-bottom: 22px;
+    }
+
+    .divider {
+      width: 48px;
+      height: 2px;
+      background: #3d6b5e;
+      margin-bottom: 22px;
+    }
+
+    .description {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      font-size: 13.5px;
+      color: #444;
+      line-height: 1.85;
+      margin-bottom: 26px;
+    }
+
+    .description strong {
+      font-weight: 400;
+      color: #2c2c2c;
+    }
+
+    /* Services list */
+    .services {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .service-tag {
+      background: #eef4f2;
+      border: 1px solid #c2d8d0;
+      color: #3d6b5e;
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+    }
+
+    /* Safety note */
+    .safety-note {
+      background: #f2f7f5;
+      border-left: 3px solid #3d6b5e;
+      padding: 12px 16px;
+      font-size: 12px;
+      color: #555;
+      font-style: italic;
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+
+    /* Gift message */
+    .gift-message {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 15px;
+      color: #8a7060;
+      padding: 18px 0;
+      border-top: 1px solid #e8ddd0;
+      border-bottom: 1px solid #e8ddd0;
+      margin-bottom: 0;
+    }
+
+    /* Footer band */
+    .footer-band {
+      background: #3d6b5e;
+      padding: 10px 0;
+      text-align: center;
+      letter-spacing: 3px;
+      font-size: 10px;
+      color: #c9ddd7;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    @media print {
+      body { background: white; padding: 0; }
+      .card { box-shadow: none; border: 1px solid #ccc; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+
+    <div class="header-band">A Gift for You &nbsp;&bull;&nbsp; Mother's Day 2025</div>
+
+    <div class="logo-row">
+      <img src="Logo.jpg" alt="Healing Hands Spa" />
+    </div>
+
+    <div class="image-strip">
+      <img src="Massage.png" alt="Prenatal Massage" />
+      <img src="facial.png" alt="Classic Facial" />
+    </div>
+
+    <div class="body">
+
+      <div class="occasion">Mother's Day Special</div>
+      <div class="package-title">Glow &amp; Radiance</div>
+      <div class="subtitle">A day of warmth, renewal, and care — just for you.</div>
+      <div class="divider"></div>
+
+      <p class="description">
+        This indulgent ritual begins with a 60-minute <strong>Prenatal Massage</strong> — a gentle, comfort-first session with a licensed therapist trained in pregnancy positioning and side-lying support. Using full-body pillow support and gentle-to-moderate pressure, this pregnancy-specific treatment eases lower back tension, loosens tight hips, and provides the kind of deep, full-body relaxation that expecting moms truly deserve. It's one thoughtful hour where your body can finally let go.<br><br>
+        You'll then enjoy a <strong>45-minute Classic Facial</strong>, carefully designed to cleanse, hydrate, and brighten your skin for a fresh, luminous complexion. A soothing <strong>Foot Hydration Treatment</strong> nourishes and softens tired feet, followed by a revitalizing <strong>Foot Scrub Massage</strong> that leaves you feeling refreshed and re-energized from head to toe. Settle in and savor <strong>complimentary refreshments</strong> in a peaceful setting — because this moment is entirely yours.
+      </p>
+
+      <div class="services">
+        <span class="service-tag">60-min Prenatal Massage</span>
+        <span class="service-tag">45-min Classic Facial</span>
+        <span class="service-tag">Foot Hydration</span>
+        <span class="service-tag">Foot Scrub Massage</span>
+        <span class="service-tag">Refreshments</span>
+      </div>
+
+      <div class="safety-note">
+        Every step of your prenatal session is guided by a licensed therapist trained in pregnancy-safe techniques, so you can relax completely — knowing you and baby are in caring hands.
+      </div>
+
+      <div class="gift-message">
+        "A beautiful gift of rest, warmth, and well-being — because you deserve it."
+      </div>
+
+    </div>
+
+    <div class="footer-band">Healing Hands Spa &nbsp;&bull;&nbsp; Knoxville, TN</div>
+
+  </div>
+</body>
+</html>
